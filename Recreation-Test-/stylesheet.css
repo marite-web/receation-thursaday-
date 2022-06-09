@@ -1,0 +1,84 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+nav ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 150%;
+    font-family: Arial, Helvetica, sans-serif;
+    margin:0;
+
+}
+
+nav li, nav a{
+    list-style: none; 
+    display: inline-block; 
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+nav a{
+    text-decoration: none;
+    display: inline-block;
+    color: white; 
+    padding: 20px; 
+    font-size: 130%;
+}
+
+header{
+    display: block;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 2;
+    color: white;
+    background-color: rgb(107, 155, 106);
+    box-shadow: 0px 5px 10px gray;
+}
+
+nav li{
+    padding: 10px 0px;
+}
+
+a:hover {
+    color: black; 
+}
+
+.hero-img {
+    display: flex;
+    flex-direction: column;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.2),rgba(0, 0, 0, 0.2)), url(the-hills.jpg);
+    height: 80vh; 
+    justify-content: center;
+    align-items: center;
+    background-attachment: fixed;
+    background-size: cover; 
+    background-position: center;
+    z-index: 1;
+}
+
+.hero-img h1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: 250%;
+}
+
+.hero-img  a{
+    background-color: rgb(107, 155, 106);
+    font-size: 140%;
+    padding: 2%;
+    margin: 10%;
+}
+
+p {
+    display: flex;
+    flex-direction: column;
+    font-family: Arial, Helvetica, sans-serif;
+    justify-content: center;
+    align-items: center;
+}
+
+
